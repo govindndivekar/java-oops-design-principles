@@ -5,7 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class SaveEmployeeRecordsToDB implements ISaveEmployeeRecords{
+public class SaveEmployeeRecordsToFile implements ISaveEmployeeRecords{
 
     @Override
     public void saveEmployeeRecords(Employee employee, MonthlySalary monthlySalary, NbTimePerWeek nbTimePerWeek) {
