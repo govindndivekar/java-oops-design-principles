@@ -1,7 +1,7 @@
 package SOLID.SingleResponsibilityPrinciple.after;
 
 public enum EmployeeType {
-    RFT,
-    PartTime,
-    Temp
+    REGULAR_FULL_TIME,
+    PART_TIME,
+    TEMP
 }

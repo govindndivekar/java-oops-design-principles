@@ -6,7 +6,7 @@ public class Main {
         Employee employee = new Employee("Govind", "Divekar");
         MonthlySalary salary = new MonthlySalary(10000);
         NbTimePerWeek noOfHours = new NbTimePerWeek(70);
-        EmployeeType employeeType = EmployeeType.RFT;
+        EmployeeType employeeType = EmployeeType.REGULAR_FULL_TIME;
         ISaveEmployeeRecords saveEmployeeRecords = new SaveEmployeeRecordsToFile();
         saveEmployeeRecords.saveEmployeeRecords(employee,salary,noOfHours,employeeType);
     }
