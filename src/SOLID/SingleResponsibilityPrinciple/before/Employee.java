@@ -1,4 +1,4 @@
-package java.SOLID.SingleResponsibilityPrinciple.before;
+package SOLID.SingleResponsibilityPrinciple.before;
 
 
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 /*
-Models an employee form a business perspective
+Models an employee from a business perspective
  */
 public abstract class Employee {
     private String firstName;
