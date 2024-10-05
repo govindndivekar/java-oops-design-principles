@@ -7,6 +7,6 @@ public class Main {
         MonthlySalary salary = new MonthlySalary(10000);
         NbTimePerWeek noOfHours = new NbTimePerWeek(70);
         ISaveEmployeeRecords saveEmployeeRecords = new SaveEmployeeRecordsToFile();
-        saveEmployeeRecords.saveEmployeeRecords(employee,salary,noOfHours);
+        saveEmployeeRecords.saveEmployeeRecords(employee,salary,noOfHours,EmployeeType.RFT);
     }
 }

@@ -8,7 +8,7 @@ import java.nio.file.Paths;
 public class SaveEmployeeRecordsToFile implements ISaveEmployeeRecords{
 
     @Override
-    public void saveEmployeeRecords(Employee employee, MonthlySalary monthlySalary, NbTimePerWeek nbTimePerWeek) {
+    public void saveEmployeeRecords(Employee employee, MonthlySalary monthlySalary, NbTimePerWeek nbTimePerWeek,EmployeeType employeeType) {
 
         try {
             StringBuilder sb = new StringBuilder();
